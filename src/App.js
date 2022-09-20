@@ -1,10 +1,21 @@
+import React from "react";
+import Board from "./components/Board";
+import Header from "./components/Header";
+import Footer from './components/Footer';
 
+import { GlobalStyle } from "./style";
 
 function App() {
   return (
-    <div>
-      <h2>Página Harry Potter</h2>
-    </div>
+    <>
+      <Header/>
+
+      <Board/>
+
+      <Footer/>
+      
+      <GlobalStyle/>
+    </>
   );
 }
 
